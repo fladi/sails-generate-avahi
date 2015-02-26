@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-avahi",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "Avahi service publishing for Sails.js instances",
   "main": "Generator.js",
   "scripts": {

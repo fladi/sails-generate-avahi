@@ -1,0 +1,33 @@
+{
+  "name": "sails-generate-avahi",
+  "version": "0.11.0",
+  "description": "Avahi service publishing for Sails.js instances",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "avahi",
+    "generator",
+    "sails",
+    "generate",
+    "plugin",
+    "dbus"
+  ],
+  "author": "Michael Fladischer <michael@fladi.at>",
+  "license": "MIT",
+  "dependencies": {
+    "dbus-native": "^0.1.2",
+    "enum": "^1.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "avahi",
+    "behavior": "overrides `sails generate avahi`",
+    "sailsVersion": "~0.11.0"
+  }
+}
